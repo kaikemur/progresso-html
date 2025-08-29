@@ -5,9 +5,22 @@
 }
 
 .ronaldo{
-    width: 20%;
-    height: 200px;
-    background-color: rgba(121, 14, 243, 0.932);
-    margin: 40px auto ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
    
+}
+
+.q1{
+    width: 150px;
+    height: 150px;
+    background-color:rgb(226, 147, 43)
+}
+
+.q2{
+    width: 150px;
+    height: 150px;
+    background-color:rgb(226, 43, 43)
 }
