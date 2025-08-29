@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ronaldo{
+    width: 20%;
+    height: 200px;
+    background-color: rgba(121, 14, 243, 0.932);
+    margin: 40px auto ;
+   
+}
