@@ -5,13 +5,15 @@
 }
 
 .ronaldo{
-    height: 100vh;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
    flex-direction: column;
-  background-color: rgb(200, 228, 233);
+  background-color: rgba(6, 7, 7, 0.795);
+  margin:850px;
+  border-radius: 50px;
 }
 
 .q1{
@@ -19,7 +21,7 @@
     height: 100px;
     background-color:rgb(226, 55, 43);
     border-radius: 5000px;
-    border: 2px solid;
+    box-shadow: 0 0 20px rgb(247, 2, 2), 0 0 20px rgb(224, 9, 9), 0 0 20px rgb(194, 12, 12);
 
 }
 
@@ -28,7 +30,7 @@
     height: 100px;
     background-color:rgb(255, 239, 9);
     border-radius: 5000px;
-    border: 2px solid;
+    box-shadow: 0 0 20px rgb(247, 243, 2), 0 0 20px rgb(240, 205, 9), 0 0 20px rgb(194, 191, 12);
 }
 
 .q3{
@@ -36,6 +38,5 @@
     height: 100px;
     background-color:rgb(43, 226, 52);
     border-radius: 5000px;
-    border: 2px solid;
-
+    box-shadow: 0 0 20px rgb(14, 235, 25), 0 0 20px rgb(45, 224, 9), 0 0 20px greenyellow;
 }
