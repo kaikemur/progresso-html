@@ -19,9 +19,10 @@
 .q1{
     width: 100px;
     height: 100px;
-    background-color:rgb(226, 55, 43);
+    background-color:rgb(255, 17, 0);
     border-radius: 5000px;
-    box-shadow: 0 0 20px rgb(247, 2, 2), 0 0 20px rgb(224, 9, 9), 0 0 20px rgb(194, 12, 12);
+    box-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px rgb(255, 0, 0), 0 0 30px rgb(255, 0, 0);
+    filter: brightness(200%);
 
 }
 
@@ -30,7 +31,8 @@
     height: 100px;
     background-color:rgb(255, 239, 9);
     border-radius: 5000px;
-    box-shadow: 0 0 20px rgb(247, 243, 2), 0 0 20px rgb(240, 205, 9), 0 0 20px rgb(194, 191, 12);
+    box-shadow: 0 0 10px rgb(247, 243, 2), 0 0 20px rgb(240, 205, 9), 0 0 30px rgb(194, 191, 12);
+    filter: brightness(200%);
 }
 
 .q3{
@@ -38,5 +40,21 @@
     height: 100px;
     background-color:rgb(43, 226, 52);
     border-radius: 5000px;
-    box-shadow: 0 0 20px rgb(14, 235, 25), 0 0 20px rgb(45, 224, 9), 0 0 20px greenyellow;
+    box-shadow: 0 0 10px rgb(14, 235, 25), 0 0 20px rgb(45, 224, 9), 0 0 30px rgb(30, 255, 0);
+    filter: brightness(200%);
+}
+
+#q1 :hover {
+    box-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px rgb(255, 0, 0), 0 0 30px rgb(255, 0, 0);
+    filter: brightness(200%);
+}
+
+#q2 :hover {
+    box-shadow: 0 0 10px rgb(247, 243, 2), 0 0 20px rgb(240, 205, 9), 0 0 30px rgb(194, 191, 12);
+    filter: brightness(200%);
+}
+
+#q3 :hover {
+    box-shadow: 0 0 10px rgb(14, 235, 25), 0 0 20px rgb(45, 224, 9), 0 0 30px rgb(30, 255, 0);
+    filter: brightness(200%);
 }
