@@ -10,17 +10,32 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-   
+   flex-direction: column;
+  background-color: rgb(200, 228, 233);
 }
 
 .q1{
-    width: 150px;
-    height: 150px;
-    background-color:rgb(226, 147, 43)
+    width: 100px;
+    height: 100px;
+    background-color:rgb(226, 55, 43);
+    border-radius: 5000px;
+    border: 2px solid;
+
 }
 
 .q2{
-    width: 150px;
-    height: 150px;
-    background-color:rgb(226, 43, 43)
+    width: 100px;
+    height: 100px;
+    background-color:rgb(255, 239, 9);
+    border-radius: 5000px;
+    border: 2px solid;
+}
+
+.q3{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(43, 226, 52);
+    border-radius: 5000px;
+    border: 2px solid;
+
 }
