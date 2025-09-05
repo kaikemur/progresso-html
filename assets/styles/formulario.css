@@ -2,5 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    height: 100px;
 } 
 
+body {
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position:center;
+    color: black;
+}
+
+.container{
+    width: 420px;
+    background-color: rgb(210, 211, 204);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15px;
+}
+.rank{
+    
+}
